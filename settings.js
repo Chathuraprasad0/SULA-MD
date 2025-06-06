@@ -25,9 +25,9 @@ FAKE_RECORDING: process.env.FAKE_RECORDING === undefined ? "true" : process.env.
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
-NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_SEND_JID,
-AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
-TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
+NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "94704051516" : process.env.NEWS_SEND_JID,
+AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "true" : process.env.AUTO_NEWS_SENDER,
+TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "true" : process.env.TIKTOK_SEND_JID,
 AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "false" : process.env.AUTO_TIKTOK_SENDER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://sadiya:MTCV3kmoO4YSt6bcK8naY9WCRRO7wL2v@dpg-d07n7k2li9vc73ff97bg-a/sula_md_db' : process.env.POSTGRESQL_URL,
 };
